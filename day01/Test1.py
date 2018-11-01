@@ -13,6 +13,7 @@ from day01.models import Proxy
 
 
 
+
 def checkIp(proxy):
     url='http://httpbin.org/ip'
     try:
