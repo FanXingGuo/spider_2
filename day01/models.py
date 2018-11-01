@@ -1,11 +1,11 @@
 from mongoengine import connect,StringField,DateTimeField,Document
 
 
-DB_HOST='47.106.209.59'
+DB_HOST='ip'
 DB_PORT=27017
 DB_NAME='test'
-username="xingguo"
-password="ppnn13YU"
+username="name"
+password="password"
 
 
 connect(DB_NAME,host=DB_HOST,port=DB_PORT,username=username,password=password, authentication_source='admin')
