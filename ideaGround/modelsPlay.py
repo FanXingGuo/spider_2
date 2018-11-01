@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client=MongoClient('47.106.209.59',27017)
+client=MongoClient('ip',port)
 db_auth = client.admin
 db_auth.authenticate("username", "password")
 
