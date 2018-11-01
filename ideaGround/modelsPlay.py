@@ -2,7 +2,7 @@ from pymongo import MongoClient
 
 client=MongoClient('47.106.209.59',27017)
 db_auth = client.admin
-db_auth.authenticate("xingguo", "ppnn13YU")
+db_auth.authenticate("username", "password")
 
 db=client.myRun
 
